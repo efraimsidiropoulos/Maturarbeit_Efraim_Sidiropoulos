@@ -1,0 +1,5 @@
+Genau diese Befehle in Powershell eingeben:
+
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install pillow tqdm numpy matplotlib
+python -c "import torch; print(f'PyTorch: {torch.__version__}'); print(f'CUDA: {torch.cuda.is_available()}')"
