@@ -1,9 +1,0 @@
-experiment,parameter_changed,value,final_train_loss,final_val_loss,final_gap,final_train_acc,final_val_acc
-baseline,baseline,-,0.0851,0.0887,0.0037,55.41,50.47
-lr_0.001,learning_rate,0.001,0.1077,0.1018,-0.0059,37.27,34.4
-lr_0.005,learning_rate,0.005,0.0789,0.0816,0.0027,61.65,56.22
-lr_0.01,learning_rate,0.01,0.0807,0.085,0.0043,56.03,51.71
-batch_2,batch_size,2,0.0714,0.0864,0.0151,65.42,57.45
-dropout_0.25,dropout,0.25,0.0883,0.0905,0.0022,51.59,47.93
-dropout_0.4,dropout,0.4,0.0995,0.1033,0.0037,46.88,43.49
-no_augmentation,augmentation,False,0.0704,0.0993,0.0289,66.71,56.65

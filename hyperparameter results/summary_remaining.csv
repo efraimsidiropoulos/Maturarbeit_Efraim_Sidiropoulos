@@ -1,3 +1,0 @@
-experiment,parameter_changed,value,final_train_loss,final_val_loss,final_gap,final_train_acc,final_val_acc
-batch_2,batch_size,2,0.0714,0.0864,0.0151,65.42,57.45
-no_augmentation,augmentation,False,0.0704,0.0993,0.0289,66.71,56.65
