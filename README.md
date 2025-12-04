@@ -5,7 +5,7 @@ Es gibt 2 Python-Files. train.py und hyperparameter_analysis.py.1 train.py ist d
 
 Die Dateien stanford_train_yolo.json und der Imagefolder stanford_cars_train bilden den benötigten Datensatz. Diese sollten heruntergeldaden werden und am Besten separat im lokalen Downloads-Folder liegen.
 
-Die Folder hyperparameter results und Standartmodell results beinhalten meine Auswertung aus den durchgeführten Trainings. Führt man das Training jedoch durch erhält man eigene neue Dateien.
+Die Folder hyperparameter results und Standartmodell results beinhalten meine Auswertung aus den durchgeführten Trainings. Führt man das Training jedoch durch erhält man eigene neue Dateien. PS: Die Checkpoints jede 5 Epochen sind nicht auf Github, da diese Dateien viel zu gross sind, welche man aber selber erhält. (Meine Resultate sind in den Excel Tabellen zu sehen)
 
 Das Training wurde auf Windows Powershell durchgeführt und darauf basiert auch das Vorgehen. Dazu wird auch eine NVIDIA-Grafikskarte bevorzugt. Im Falle, dass diese nicht vorhanden ist, wird automatisch der CPU benutzt. Dabei sollte man jedoch mit einer steilen Erhöhung der Trainingsdauer rechnen.
 
