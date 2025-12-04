@@ -9,10 +9,13 @@ Die Folder hyperparameter results und Standartmodell results beinhalten meine Au
 
 Das Training wurde auf Windows Powershell durchgeführt und darauf basiert auch das Vorgehen. Dazu wird auch eine NVIDIA-Grafikskarte bevorzugt. Im Falle, dass diese nicht vorhanden ist, wird automatisch der CPU benutzt. Dabei sollte man jedoch mit einer steilen Erhöhung der Trainingsdauer rechnen.
 
+Der requirements Folder weist manche Pakete auf, welche für das Training benötigt sind(wird in der Anleitung erklärt)
+
 Anleitung Powershell:
 
 1. Alle FIles (Python Skripte, Image-Folder und JSON-FIle) unter dem lokalen Downloadsfolder haben.
-2. Requirements installieren
+2. Requirements installieren -> einfach copy-paste un enter
 3. In Powershell eingeben: cd (der eigene Pfad zum Downloads Folder. Dieser ist zusehen, falls man auf z.B das train.py geht und Properties drückt) -> in meinem Fall war es : cd C:\Users\efrem\Downloads
-4. 
+4. Danach noch zum Schluss das Skript laufen lassen: py train.py oder py hyperparameter_analysis.py
+
 
